@@ -124,3 +124,33 @@ label{
 #address-2{
     width: 100%;
 }
+.radio-form{
+    display: flex;
+    justify-content: space-between;
+}
+#country{
+    background-color: #fff;
+    border:1px solid rgb(206, 212, 218);
+    border-radius: 4px;
+    padding: 6px 12px;
+    width: 100%;
+}
+.country{
+    width: 45%;
+}
+#state{
+    background-color: #fff;
+    border:1px solid rgb(206, 212, 218);
+    border-radius: 4px;
+    padding: 6px 12px;
+    width: 100%;
+}
+.state{
+    width: 35%;
+}
+.zip{
+    width: 15%;
+}
+#zip{
+    width: 100%;
+}
