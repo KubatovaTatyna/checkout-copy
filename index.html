@@ -22,28 +22,37 @@
         <form action="./index.html">
             <div class="first-form">
                 <h2>Billing addres</h2>
-                <div class="firstName">
+                <div class="names">
+                <div class="first-name">
                     <div>
                         <label for="first-name">First name</label>
                     </div>
                     <input type="text" name="first-name" id="first-name">
                 </div>
-                <div class="lastName">
+                <div class="last-name">
                     <div>
                         <label for="last-name">Last name</label>
                     </div>
                     <input type="text" name="last-name" id="last-name">
                 </div>
+                </div>
+                <div class="username">
                 <div>
                     <div>
                         <label for="username">Username</label>
                     </div>
+                </div>
+                <div class="username-input">
                     <span>@</span>
                     <input type="text" name="username" id="username" placeholder="Username">
                 </div>
+                </div>
                 <div>
                     <div>
-                        <label for="email">E-mail</label>
+                        <label for="email">E-mail
+                            <span class="placeholder">(Optionl)
+                            </span>
+                        </label>
                     </div>
                     <input type="email" name="email" id="email" placeholder="you@example.com">
                 </div>
@@ -55,20 +64,24 @@
                 </div>
                 <div>
                     <div>
-                        <label for="address-2">Address 2</label>
+                        <label for="address-2">Address 2
+                            <span class="placeholder">(Optionl)
+                            </span>
+                        </label>
                     </div>
                     <input type="text" name="address-2" id="address-2" placeholder="Apartment or suite">
                 </div>
-                <div>
+            <div class="radio-form">
+                <div class="country">
                     <div>
                         <label for="country">Coutnry</label>
                     </div>
                     <select name="country" id="country">
-                        <option value="Choose">Choose...</option>
+                        <option value="choose">Choose...</option>
                         <option value="usa">United States</option>
                     </select>
                 </div>
-                <div>
+                <div class="state">
                     <div>
                         <label for="state">State</label>
                     </div>
@@ -77,12 +90,13 @@
                         <option value="california">California</option>
                     </select>
                 </div>
-                <div>
+                <div class="zip">
                     <div>
                         <label for="zip">Zip</label>
                     </div>
                     <input type="text" name="zip" id="zip">
                 </div>
+            </div>
                 <hr>
                 <div>
                     <div>
@@ -95,7 +109,7 @@
                     </div>
                 </div>
                 <hr>
-                <div>
+                <div class="payment">
                     <h3>Payment</h3>
                     <div>
                         <input type="radio" name="credit-card" id="credit-card">
@@ -110,27 +124,35 @@
                         <label for="paypal">PayPal</label>
                     </div>
                 </div>
-                <div>
+                <div class="card-for-payment">
+                <div class="name-on-card">
                     <div>
                         <label for="name-on-card">Name on card</label>
                     </div>
                     <input type="text" name="name-on-card" id="name-on-card">
+                </div>
+                <div class="credit-card-number">
                     <div>
                         <label for="credit-card-number">Credit card number</label>
                     </div>
-                    <input type="credit-card-number" name="credit-card-number" id="credit-card-number">
+                    <input type="credit-card-number"name="credit-card-number" id="credit-card-number">
                 </div>
-                <div>
+                </div>
+                <div class="card-term">
+                <div class="expiration">
                     <div>
                         <label for="expiration">Expiration</label>
                     </div>
                     <input type="text" name="expiration" id="expiration">
+                </div>
+                <div class="cvv">
                     <div>
                         <label for="cvv">CVV</label>
                     </div>
                     <input type="text" name="cvv" id="cvv">
-                    <hr>
                 </div>
+                </div>
+                <hr>
             </div>
             <div class="second-form">
                 <h4>
@@ -173,10 +195,10 @@
                         <span>$20</span>
                     </li>
                 </ul>
-            </div>
-            <div>
-                <input type="text" placeholder="Promo code">
-                <button>Redeem</button>
+                <div>
+                    <input type="text" placeholder="Promo code">
+                    <button>Redeem</button>
+                </div>
             </div>
         </form>
         <button>Continue to checkout</button>

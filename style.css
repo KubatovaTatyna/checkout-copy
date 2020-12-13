@@ -173,5 +173,34 @@ label{
 .card-for-payment{
     display: flex;
     justify-content: space-between;
-    width: ;
+    width:100% ;
+}
+.name-on-card{
+    width: 48%;
+}
+#name-on-card{
+    width: 100%;
+}
+.credit-card-number{
+    width: 48%;
+}
+#credit-card-number{
+    width: 100%;
+}
+.card-term{
+    display: flex;
+    justify-content: space-between;
+    width: 48%;
+}
+.expiration{
+    width: 48%;
+}
+#expiration{
+    width: 100%;
+}
+.cvv{
+    width: 48%;
+}
+#cvv{
+    width: 100%;
 }
