@@ -91,6 +91,7 @@ label{
 .username{
     display: flex;
     flex-direction: column;
+    margin-top: 16px;
 }
 .username span{
     background-color: rgb(233, 236, 239);
@@ -109,6 +110,9 @@ label{
 .username-input{
     display: flex;
 }
+.email{
+    margin-top: 16px;
+}
 #email{
     width: 100%;
 }
@@ -118,8 +122,14 @@ label{
     font-weight: 400;
     color: rgb(108, 117, 125);
 }
+.address{
+    margin-top: 16px;
+}
 #address{
     width: 100%;
+}
+.address-2{
+    margin-top: 16px;
 }
 #address-2{
     width: 100%;
@@ -127,6 +137,10 @@ label{
 .radio-form{
     display: flex;
     justify-content: space-between;
+    margin-top: 16px;
+}
+hr{
+    margin-top: 16px;
 }
 #country{
     background-color: #fff;
