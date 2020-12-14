@@ -544,4 +544,8 @@ footer ul li a{
     #cvv{
         width: 100%;
     }
+    .checkout-button{
+        max-width: 94.7%;
+        margin-left: 2.7%;
+    }
 }
