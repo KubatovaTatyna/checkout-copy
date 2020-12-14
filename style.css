@@ -549,3 +549,8 @@ footer ul li a{
         margin-left: 2.7%;
     }
 }
+@media (max-width:900px){
+    .second-form{
+        flex: 1 0 auto;
+    }
+}
