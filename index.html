@@ -47,7 +47,7 @@
                     <input type="text" name="username" id="username" placeholder="Username">
                 </div>
                 </div>
-                <div>
+                <div class="email">
                     <div>
                         <label for="email">E-mail
                             <span class="placeholder">(Optionl)
@@ -56,13 +56,13 @@
                     </div>
                     <input type="email" name="email" id="email" placeholder="you@example.com">
                 </div>
-                <div>
+                <div class="address">
                     <div>
                         <label for="address">Address</label>
                     </div>
                     <input type="text" name="address" id="address" placeholder="1234 Main St">
                 </div>
-                <div>
+                <div class="address-2">
                     <div>
                         <label for="address-2">Address 2
                             <span class="placeholder">(Optionl)
@@ -155,26 +155,26 @@
                 <hr>
             </div>
             <div class="second-form">
-                <h4>
-                    <span>Your card</span>
-                    <span>3</span>
-                </h4>
                 <ul>
-                    <li>
+                    <h4>
+                        <span>Your cart</span>
+                        <span class="rounded-pill">3</span>
+                    </h4>
+                    <li class="product-name">
                         <div>
                             <h6>Product name</h6>
                             <small>Brief description</small>
                         </div>
                         <span>$12</span>
                     </li>
-                    <li>
+                    <li class="second-product">
                         <div>
                             <h6>Second product</h6>
                             <small>Brief description</small>
                         </div>
                         <span>$8</span>
                     </li>
-                    <li>
+                    <li class="thrid-item">
                         <div>
                             <h6>Thrid item</h6>
                             <small>Brief description</small>
@@ -188,20 +188,20 @@
                         </div>
                         <span>-$5</span>
                     </li>
-                    <li>
+                    <li class="total-usd">
                         <div>
                             <h6>Total (USD)</h6>
                         </div>
                         <span>$20</span>
                     </li>
+                    <div class="input-button">
+                        <input type="text" placeholder="Promo code" id="input-button">
+                        <button>Redeem</button>
+                    </div>
                 </ul>
-                <div>
-                    <input type="text" placeholder="Promo code">
-                    <button>Redeem</button>
-                </div>
             </div>
         </form>
-        <button>Continue to checkout</button>
+        <button class="checkout-button"> <a href="#">Continue to checkout</a> </button>
     </main>
 </body>
 
